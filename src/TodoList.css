@@ -1,0 +1,21 @@
+
+
+.todo-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  /* Move filter to the right end */
+  
+  .filter-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+  }
+  
+  /* Move select to the right end */
+  
+  .filter-container select {
+    margin-left: auto;
+  }

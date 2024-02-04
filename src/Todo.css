@@ -1,0 +1,45 @@
+
+
+.todo-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+  
+  .todo-details {
+    flex-grow: 1;
+  }
+  
+  .todo-details h3,
+  .todo-details p {
+    margin: 0;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+.edit-button {
+    margin-left: 10px;
+    background-color: #687068;
+    color: white;
+    
+  }
+  
+  .delete-button {
+    margin-left: 10px;
+    background-color: red;
+    color: white;
+  }
+  
+  
